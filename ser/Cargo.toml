@@ -1,0 +1,13 @@
+[package]
+name = "sigser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#bitcoinsuite-core = { path = "../bch-rs/bitcoinsuite-core" }
+bitcoinsuite-core = { git = "https://github.com/samrock5000/cashtokens-rs" }
+abc-rust-lint = { git = "https://github.com/samrock5000/cashtokens-rs" }
+bytes = "1.4.0"
+hex = "0.4.3"
